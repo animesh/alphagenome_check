@@ -1,0 +1,204 @@
+{
+  "sickle_cell_analysis": {
+    "mutation_details": {
+      "name": "Sickle Cell Disease",
+      "chromosome": "chr11",
+      "position": 5248232,
+      "ref": "C",
+      "alt": "T",
+      "gene": "HBB (Beta-globin)",
+      "coding_change": "c.20A>T",
+      "protein_change": "p.Glu6Val",
+      "dbsnp": "rs334",
+      "clinical_significance": "Pathogenic",
+      "inheritance": "Autosomal recessive",
+      "prevalence": "~100,000 affected in USA; ~1-2% carrier frequency worldwide"
+    },
+    "predictions": {
+      "status": "mock_data",
+      "variant": "chr11:5248232:C>T",
+      "organism": "human",
+      "modalities": {
+        "gene_expression": {
+          "score": 0.45,
+          "direction": "decreased",
+          "confidence": 0.82,
+          "note": "Mock data - connect API for real predictions"
+        },
+        "splicing": {
+          "score": 0.12,
+          "direction": "minimal_effect",
+          "confidence": 0.71
+        },
+        "chromatin_accessibility": {
+          "score": -0.33,
+          "direction": "decreased",
+          "confidence": 0.68
+        },
+        "histone_modifications": {
+          "score": 0.08,
+          "direction": "minimal_effect",
+          "confidence": 0.59
+        },
+        "transcription_factor_binding": {
+          "score": -0.28,
+          "direction": "decreased",
+          "confidence": 0.75
+        }
+      }
+    },
+    "scores": {
+      "status": "mock_data",
+      "variant": "chr11:5248232:C>T",
+      "quantile_scores": {
+        "gene_expression": {
+          "raw_score": -1.2,
+          "quantile": 0.15,
+          "percentile": "15th percentile",
+          "interpretation": "Effect stronger than 85% of common variants"
+        },
+        "splicing": {
+          "raw_score": 0.05,
+          "quantile": 0.48,
+          "percentile": "48th percentile"
+        }
+      }
+    },
+    "ism_results": {
+      "status": "mock_data",
+      "message": "ISM requires API connection"
+    }
+  },
+  "hemoglobin_variant_comparison": {
+    "SCD_HBB_E6V": {
+      "info": {
+        "name": "Sickle Cell (HBB E6V)",
+        "chromosome": "chr11",
+        "position": 5248232,
+        "ref": "C",
+        "alt": "T",
+        "clinical": "Pathogenic"
+      },
+      "predictions": {
+        "status": "mock_data",
+        "variant": "chr11:5248232:C>T",
+        "organism": "human",
+        "modalities": {
+          "gene_expression": {
+            "score": 0.45,
+            "direction": "decreased",
+            "confidence": 0.82,
+            "note": "Mock data - connect API for real predictions"
+          },
+          "splicing": {
+            "score": 0.12,
+            "direction": "minimal_effect",
+            "confidence": 0.71
+          },
+          "chromatin_accessibility": {
+            "score": -0.33,
+            "direction": "decreased",
+            "confidence": 0.68
+          },
+          "histone_modifications": {
+            "score": 0.08,
+            "direction": "minimal_effect",
+            "confidence": 0.59
+          },
+          "transcription_factor_binding": {
+            "score": -0.28,
+            "direction": "decreased",
+            "confidence": 0.75
+          }
+        }
+      }
+    },
+    "HBB_E22K": {
+      "info": {
+        "name": "Hemoglobin E",
+        "chromosome": "chr11",
+        "position": 5248243,
+        "ref": "G",
+        "alt": "A",
+        "clinical": "Benign (protective against malaria)"
+      },
+      "predictions": {
+        "status": "mock_data",
+        "variant": "chr11:5248243:G>A",
+        "organism": "human",
+        "modalities": {
+          "gene_expression": {
+            "score": 0.45,
+            "direction": "decreased",
+            "confidence": 0.82,
+            "note": "Mock data - connect API for real predictions"
+          },
+          "splicing": {
+            "score": 0.12,
+            "direction": "minimal_effect",
+            "confidence": 0.71
+          },
+          "chromatin_accessibility": {
+            "score": -0.33,
+            "direction": "decreased",
+            "confidence": 0.68
+          },
+          "histone_modifications": {
+            "score": 0.08,
+            "direction": "minimal_effect",
+            "confidence": 0.59
+          },
+          "transcription_factor_binding": {
+            "score": -0.28,
+            "direction": "decreased",
+            "confidence": 0.75
+          }
+        }
+      }
+    },
+    "HBB_IVS2_110": {
+      "info": {
+        "name": "Beta-thalassemia (splicing)",
+        "chromosome": "chr11",
+        "position": 5248257,
+        "ref": "G",
+        "alt": "T",
+        "clinical": "Pathogenic (loss of splicing)"
+      },
+      "predictions": {
+        "status": "mock_data",
+        "variant": "chr11:5248257:G>T",
+        "organism": "human",
+        "modalities": {
+          "gene_expression": {
+            "score": 0.45,
+            "direction": "decreased",
+            "confidence": 0.82,
+            "note": "Mock data - connect API for real predictions"
+          },
+          "splicing": {
+            "score": 0.12,
+            "direction": "minimal_effect",
+            "confidence": 0.71
+          },
+          "chromatin_accessibility": {
+            "score": -0.33,
+            "direction": "decreased",
+            "confidence": 0.68
+          },
+          "histone_modifications": {
+            "score": 0.08,
+            "direction": "minimal_effect",
+            "confidence": 0.59
+          },
+          "transcription_factor_binding": {
+            "score": -0.28,
+            "direction": "decreased",
+            "confidence": 0.75
+          }
+        }
+      }
+    }
+  },
+  "report": "\n================================================================================\nCLINICAL INTERPRETATION REPORT\n================================================================================\n\n1. VARIANT CHARACTERIZATION\n   Gene: HBB (Beta-globin)\n   Genomic: chr11:5248232 C>T\n   Coding: c.20A>T\n   Protein: p.Glu6Val\n   Clinical Significance: Pathogenic\n\n2. PREDICTED REGULATORY EFFECTS\n   \u2022 gene_expression: decreased (score: 0.45)\n   \u2022 splicing: minimal_effect (score: 0.12)\n   \u2022 chromatin_accessibility: decreased (score: -0.33)\n   \u2022 histone_modifications: minimal_effect (score: 0.08)\n   \u2022 transcription_factor_binding: decreased (score: -0.28)\n\n3. CLINICAL NOTES\n   Sickle Cell Disease (SCD) is caused by a valine substitution at position 6\n   of the beta-globin protein, leading to polymerization under hypoxia.\n   AlphaGenome predictions above assess regulatory consequences that may\n   affect HBB expression levels or splicing, which could influence disease\n   severity or therapeutic response.\n\n4. RECOMMENDED NEXT STEPS\n   1. Cross-validate predictions with experimental data (RNA-seq, ATAC-seq)\n   2. Compare predictions across erythroid cell types\n   3. Analyze long-range regulatory elements affecting HBB\n   4. Consider interactions with modifying genes (e.g., F-globin)"
+}
